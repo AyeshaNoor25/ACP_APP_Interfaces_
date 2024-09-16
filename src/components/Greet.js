@@ -1,8 +1,33 @@
-import React from 'react';
+import React  from 'react';
 
-// function Greet(){
-//     return <h1> This is first line</h1>
-// }
 
-const Greet= (props) => {return <h1>Hello! {props.name} </h1>}
+/* function Greet() {
+    return ( <><h1> this is heading</h1> 
+    <p> this is paragraph</p>
+    <p> this is another para</p>
+    </>
+       ) 
+    
+}
+
+export default Greet; */
+
+
+
+
+
+ const Greet = (props) => 
+     {
+    return (
+   
+    <>
+       <h1> this is heading {props.number}</h1> 
+       <p> this is paragraph {props.name}</p>
+       <p> this is another para with {props.children}</p>
+       
+       </>
+    )
+ }
+
+
 export default Greet;
