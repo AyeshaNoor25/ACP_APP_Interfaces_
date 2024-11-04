@@ -1,0 +1,50 @@
+/* src/components/CardDetails.css */
+.card-details {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 400px;
+  border: 1px solid #CDD7D6; /* Soft blue-gray border */
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #EFF2F1; /* Soft blue-gray background */
+}
+
+.card-details h2 {
+  text-align: center;
+  color: #556B2F; /* Olive green title */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #789D82; /* Olive green label text */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #CDD7D6; /* Soft blue-gray input border */
+  border-radius: 4px;
+  background-color: #F5F8F7; /* Lighter blue-gray input background */
+}
+
+.confirm-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #789D82; /* Olive green button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirm-btn:hover {
+  background-color: #556B2F; /* Darker olive on hover */
+}

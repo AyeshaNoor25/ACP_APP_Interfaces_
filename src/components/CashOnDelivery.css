@@ -1,0 +1,66 @@
+/* src/components/CashOnDelivery.css */
+
+:root {
+  --primary-color: #8f9779;
+  --secondary-color: #8f9779;
+  --white: #e4e1e1;
+  --gray: #efefef;
+
+  /* Cash on Delivery Colors */
+  --cad-border-color: #b0b3b0;
+  --cad-bg-color: #f3f6f4;
+  --cad-heading-color: #556b2f;
+  --cad-button-color: #8f9779;
+  --cad-button-hover-color: #728c69;
+}
+
+.cash-on-delivery {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 400px;
+  border: 1px solid var(--cad-border-color); /* Adjusted for consistency */
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: var(--cad-bg-color); /* Adjusted for consistency */
+}
+
+.cash-on-delivery h2 {
+  text-align: center;
+  color: var(--cad-heading-color); /* Dark green for headings */
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px; /* Center the logo and add spacing below */
+  max-width: 100px; /* Adjust size of the logo */
+}
+
+.order-summary {
+  margin-bottom: 20px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.summary-item.total {
+  font-weight: bold;
+  color: #789D82; /* Olive green for Total */
+}
+
+.confirm-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--cad-button-color); /* Olive green button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirm-btn:hover {
+  background-color: var(--cad-button-hover-color); /* Darker olive on hover */
+}
