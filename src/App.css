@@ -25,14 +25,13 @@ html, body {
   background-color: #f8f8f8; /* Page Background */
 }
 
-body {
-  background-image: url('C:\Users\MnM\OneDrive\Documents\ACP\ACP_PROJECT\my-app\src\assets\bgimage1.jpg'); /* Adjust path if necessary */
-  background-size: cover;
+/* body {
+  background-image: url('C:\Users\MnM\OneDrive\Documents\ACP\ACP_PROJECT\my-app\src\assets\bgimage1.jpg'); 
   opacity: 0.9;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-}
+} */
 
 .container {
   display: flex;
